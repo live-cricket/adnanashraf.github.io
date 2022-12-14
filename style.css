@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar_li{
+    padding: 30px;
+    list-style-type: none;
+    background-color:lightyellow;
+}
+.navbar_li img{
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+}
+.navbar_li li a{
+    color: black;
+}
+.navbar_list{
+    float: right;
+    text-align: right;
+    display: inline;
+    margin: 12px;
+}
+.navbarn .navbar_li{
+    display: flex;
+}
+.inner_text{
+    text-align: center;
+    text-decoration: none;
+    background: wheat;
+    margin: 10px;
+}
+.col-lg-8{
+    border: 3px solid black;
+    background-color:lightyellow;
+    border-style: inset;
+    border-radius: 15px;
+    margin-left: -13px;
+}
+.port-img{
+    border: 3px solid black;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.edu{
+    border: 3px solid black;
+    border-style: inset;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color:lightyellow;
+}
+.edu_li{
+    margin-left: 100px;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -20px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline input {
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .form-inline button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100px;
+    background-color: lightskyblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-inline button:hover {
+    transition-duration: 1s;
+    background-color:dodgerblue;
+  }
+  #pwd{
+    width: 550px;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+}
+.skill {
+      width: 90%;
+      background-color: #ddd;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      color: white;
+    }
+    
+    .html {width: 90%; background-color: #04AA6D;}
+    .css {width: 80%; background-color: #2196F3;}
+    .js {width: 65%; background-color: #f44336;}
+    .bootstrap {width: 60%; background-color: #808080;}
+    
